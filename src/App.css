@@ -1,0 +1,26 @@
+body{
+  font-family: Arial;
+  background: linear-gradient(135deg, #89F7FE 0%, #66A6FF 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container{
+  max-width: 450px;
+  margin: 60px auto 0;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.20);
+}
+
+@media (max-width:450px){
+  .container{
+    width: 90%;
+    margin: 50px auto 0;
+  }
+
+  .message-item{
+    font-size: 13px;
+    max-width: 280px;
+  }
+}
